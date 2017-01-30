@@ -1,0 +1,42 @@
+h1 {
+
+	color: white;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 24px;
+	width: 212px;
+	position: relative;
+	left: 180px;
+	margin-top: 50px;
+	margin-bottom: 0;
+	float: left;
+	
+	
+}
+
+ul {
+
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    left: 900px;
+   	top: 75px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    
+    display: block;
+    color: #777777;
+    padding: 16px;
+    text-decoration: none;
+}
