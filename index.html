@@ -7,59 +7,48 @@
 </head>
 <body>
 
-<div>
-	<h1>Jared Neutel</h1>
+<header>
+	<div class="name">
+		<h1>Jared Neutel</h1>
+	</div>
 
-	<ul>
-		<li><a href="#Contact">Contact</a></li>
-		<li><a href="#Portfolio">Portfolio</a></li>
-		<li><a href="#About">About</a></li>
-		
-		
-	</ul>
-	<br>
-	<br>
-	<br>
-	<br>
+	<nav>
+		<ul>
+			<li><a href="#">About</a></li>
+			<li class="dividers">|</li>
+			<li><a href="#">Portfolio</a></li>
+			<li class="dividers">|</li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<hr id="firstline">
+</header>
 
-	<hr>
-</div>
-
-<div class= "Main">
-	<div class= "about_me">
-	
+<div class="main">
+	<div class="content">
 		<h2>About Me</h2>
-
 		<hr>
-
-		<img src="assets/images/Headshot.jpg">
-		<p id="about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-		</p>	
-	</div>
-
-
-	<div class= "Connect">
-		
-		<h3>Connect with Me</h3>
-
 		<br>
-
-		<!-- How do I make this line opaque? -->
-		<hr>
-
-		<img src="assets/images/github.png" height= "50px" width= "50px">
-		<img src="assets/images/linkedin.png" height= "50px" width="50px">
-		<img src="assets/images/stackoverflow.png" height="50px" width="50px">
-
+		<img id="headshot" src="assets/images/Headshot.jpg" alt="Jared Neutel Headshot">
+		<p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 	</div>
-
 </div>
 
-<div>
+<aside>
+	<div class="content">
+		<h3>Connect with Me</h3>
+		<hr>
+		<img id="github" src="assets/images/github.png">
+		<img class="social-med" src="assets/images/linkedin.png">
+		<img class="social-med" src="assets/images/stackoverflow.png">
+	</div>
+</aside>
+
+<footer>
+	<div class="copyright">
+		<h4>© Copyright 2017 Jared Neutel</h4>
+	</div>
+</footer>
 	
-	<h4>Copyright 2017 Jared Neutel</h4>
-
-</div>
-
 </body>
 </html>
