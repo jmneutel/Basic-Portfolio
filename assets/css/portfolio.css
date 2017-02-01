@@ -28,19 +28,19 @@ body {
 
 .ph {
 
-	width: 250px;
+	width: 260px;
 	height: 200px;
 	opacity: .7;
 	float: left;
 	margin-left: 10px;
-	margin-right: 50px;
+	margin-right: 70px;
 	margin-bottom: 50px;
 
 }
 
 .ph2 {
 
-	width: 250px;
+	width: 260px;
 	height: 200px;
 	opacity: .7;
 	float: left;
@@ -53,7 +53,7 @@ body {
 	font-family: 'Georgia', Times, serif;
 	font-weight: normal;
 	font-size: 20px;
-	padding: 20px 81.5px 20px 81.5px;
+	padding: 20px 86.5px 20px 86.5px;
 	color: white;
 	background-color: #4aaaa5;
 	position: relative;
@@ -68,13 +68,13 @@ body {
 	font-family: 'Georgia', Times, serif;
 	font-weight: normal;
 	font-size: 20px;
-	padding: 20px 75px 20px 75px;
+	padding: 20px 80px 20px 80px;
 	color: white;
 	background-color: #4aaaa5;
 	position: relative;
 	float: left;
 	bottom: 503px;
-	left: 50px;
+	left: 70px;
 }
 
 #trivia-text {
@@ -83,7 +83,7 @@ body {
 	font-family: 'Georgia', Times, serif;
 	font-weight: normal;
 	font-size: 20px;
-	padding: 20px 99px 20px 99px;
+	padding: 20px 104px 20px 104px;
 	color: white;
 	background-color: #4aaaa5;
 	position: relative;
@@ -98,14 +98,14 @@ body {
 	font-family: 'Georgia', Times, serif;
 	font-weight: normal;
 	font-size: 20px;
-	padding: 20px 35.5px 20px 35.5px;
+	padding: 20px 40.5px 20px 40.5px;
 	color: white;
 	background-color: #4aaaa5;
 	position: relative;
 	float: left;
 	bottom: 355px;
 	margin-left: 10px;
-	left: 40px;
+	left: 60px;
 }
 
 #rps-text {
@@ -114,13 +114,13 @@ body {
 	font-family: 'Georgia', Times, serif;
 	font-weight: normal;
 	font-size: 20px;
-	padding: 20px 36.5px 20px 36.5px;
+	padding: 20px 41.6px 20px 41.5px;
 	color: white;
 	background-color: #4aaaa5;
 	position: relative;
 	float: left;
 	margin-left: 10px;
-	right: 310px;
+	right: 340px;
 	top: 100px;
 
 }
@@ -132,7 +132,7 @@ body {
 
 .content {
 
-	margin: 40px;
+	margin: 20px;
 	margin-bottom: 30px;
 }
 
