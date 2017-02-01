@@ -5,6 +5,7 @@ header {
 	top: 0;
 	margin-bottom: 0;
 	left: 0;
+	z-index: 10;
 }
 
 body {
@@ -79,6 +80,7 @@ li a {
 	position: relative;
 	top: 35px;
 	color: grey;
+	opacity: 0.5;
 }
 
 aside {
